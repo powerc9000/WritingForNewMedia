@@ -1,0 +1,109 @@
+@font-face{
+	font-family:acw;
+	src:url(Timepiece.ttf);
+}
+@font-face{
+	font-family:ts;
+	src:url(shining-nfi-demo.ttf);
+}
+@font-face{
+	font-family:fmj;
+	src:url(antilles.ttf);
+}
+body{
+	margin:0;
+	padding:0;
+}
+.wrap{
+	padding:10px 20px;
+	border-radius: 6px;
+}
+h1{
+	text-align:center;
+}
+
+#so{
+	background-image: url("../images/2001/bg.jpg");
+}
+#so .jumbotron{
+	background:#E6E6E6;
+}
+#so h1{
+	color:black;
+	font-family: Gill Sans, sans-serif;
+}
+#so .wrap{
+	background:#E6E6E6;
+}
+
+#aco{
+	background:#D66000;
+}
+#aco .jumbotron{
+	background:black;
+}
+#aco h1{
+	color:#D66000;
+	font-family: acw;
+}
+#aco .wrap{
+	background:white;
+}
+
+#ts{
+	background:gray;
+}
+#ts .jumbotron{
+	background:white;
+}
+#ts h1{
+	color:red;
+	font-family: ts;
+}
+#ts .wrap{
+	background:white;
+}
+
+#moon{
+	background-image: url("../images/2001/bg.jpg");
+}
+#moon .jumbotron{
+	background:#E6E6E6;
+}
+#moon h1{
+	color:black;
+	font-family: Helvetica, sans-serif;
+}
+#moon .wrap{
+	background:#E6E6E6;
+}
+
+#fmj{
+	background-image: url("../images/fullmetal/camo.png");
+}
+#fmj .jumbotron{
+	background:white;
+}
+#fmj h1{
+	color:black;
+	font-family: fmj;
+}
+#fmj .wrap{
+	background:white;
+}
+
+#ews{
+	background:white;
+}
+#ews .jumbotron{
+	background:#63036E;
+}
+#ews h1{
+	color:#D9FAEC;
+	font-family: Futura Std ExtraBold, sans-serif;
+	font-weight: bold;
+}
+#ews .wrap{
+	background:#63036E;
+	color:#CD94D4;
+}
